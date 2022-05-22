@@ -1,4 +1,4 @@
-# e-commerce
+# E-commerce
 
 Proyecto de e-commerce, tienda de café, para la cursada en Numen Academy de Full Stack (React y Node).
 
@@ -26,12 +26,14 @@ KANBAN, organizandonos en Trello, [acá pueden ver el tablero](https://trello.co
 
 - JavaScript
 
-- React
+- [React](https://reactjs.org/)
 
 ---
 
-## Herrameintas:
+## Herramientas:
 
-- Create React App
+- Figma, [aca pueden ver el diseño en el que nos basamos](https://www.figma.com/file/qrp2IhOgywQCuI3aj4Dtlf/Projects?node-id=39%3A2571) 
+
+- [Create React App](https://create-react-app.dev/)
 
 ---
