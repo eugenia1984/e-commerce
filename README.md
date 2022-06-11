@@ -6,7 +6,11 @@ Creado colaborativamente por:
 
 [María Eugenia Costa](https://github.com/eugenia1984)
 
-[Juan Belcon](https://github.com/JBelcon)
+[Juan Belandria](https://github.com/JBelcon)
+
+[Federico Tintorelli](https://github.com/FedericoTintorelli)
+
+[Juliana Blaiotta](https://github.com/JulianaBlaiotta)
 
 ---
 
