@@ -3,6 +3,7 @@ import { Footer } from "./components/Footer";
 import { Header } from "./components/header/Header";
 import { Home } from "./pages/Home";
 import { Products } from "./pages/Products";
+import { Features } from "./components/Features"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
       </Routes>
+      <Features />
       <Footer />
     </>
   );
