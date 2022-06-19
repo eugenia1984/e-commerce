@@ -3,20 +3,11 @@ import { Footer } from "./components/Footer";
 import { Header } from "./components/header/Header";
 import { Home } from "./pages/Home";
 import { Products } from "./pages/Products";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material/styles";
+import { theme } from "./themeMaterial";
 
 function App() {
-  const theme = createTheme({
-    palette: {
-      primary: {
-        main: "#ec072a",
-      },
-      secondary: {
-        main: "#505011",
-      },
-    },
-  });
-
+  
   return (
     <>
       <ThemeProvider theme={theme}>
