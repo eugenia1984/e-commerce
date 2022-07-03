@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import { Toolbar } from "@mui/material";
+
 const Navbar = () => {
   const urls = [
     {
@@ -13,7 +15,15 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav>
+    <Toolbar
+      component="nav"
+      sx={{
+        display: "flex",
+        justifyContent: "space-around",
+        alignItems: "center",
+        flexDirection: "row",
+      }}
+    >
       <ul>
         {urls.map((link) => {
           return (
@@ -23,7 +33,7 @@ const Navbar = () => {
           );
         })}
       </ul>
-    </nav>
+    </Toolbar>
   );
 };
 
