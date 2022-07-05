@@ -4,11 +4,12 @@ import cafe from "../assets/images/cafe.jpg";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { BtnPrimary } from "./BtnPrimary";
 import { styled } from '@mui/system';
+import "./features.css"
 
 
 const Features = () => {
 function change(){
-  alert("hola")
+ window.open("https://camaraargentinacafe.com.ar/", "_blank")
 }
 
   return (
@@ -20,40 +21,40 @@ function change(){
         >
           <Box sx={{height: "auto"}}
           >
-            <h3><span style={{color: "#ec072a"}}>Cómo Se Hace </span>  Tu Café?</h3> <br />
+            <h3><span className="h3-span">Cómo Se Hace </span>  Tu Café?</h3> <br />
             <p>
               Nuestra misión es ayudar a hacer crecer el ecosistema local de café  en toda Argentina. ¿Por qué?
             </p> <br />
-            <p style={{display: "flex", alignItems: "center"}}>
+            <p>
             <CheckCircleIcon sx={{color: "primary.main"}}/> 
-            <span style={{marginLeft: "10px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <span>Porque nos conecta con la tierra en la que vivimos.
               </span>  
             </p>
-            <p style={{display: "flex", alignItems: "center"}}>
+            <p>
             <CheckCircleIcon sx={{color: "primary.main"}}/> 
-            <span style={{marginLeft: "10px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <span>Porque sabemos que el mejor producto viene de nuestras raíces.
               </span> 
             </p>
-            <p style={{display: "flex", alignItems: "center"}}>
+            <p>
             <CheckCircleIcon sx={{color: "primary.main"}}/> 
-            <span style={{marginLeft: "10px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <span>Porque la buena comida local hace de nuestro rincón del mundo un lugar mejor para vivir.
               </span> 
             </p>
-            <p style={{display: "flex", alignItems: "center"}}>
+            <p>
             <CheckCircleIcon sx={{color: "primary.main"}}/> 
-            <span style={{marginLeft: "10px"}}> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <span>Porque apoya empleos locales.
              </span>
             </p>
-            <p style={{display: "flex", alignItems: "center"}}>
+            <p>
             <CheckCircleIcon sx={{color: "primary.main"}}/> 
-            <span style={{marginLeft: "10px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <span>Porque tiene más sentido para el medio ambiente.
               </span> 
             </p> <br />
             
             <BtnPrimary name="Discover Our Producers" function={change}/>
           </Box>
           <Box >
-            <img src={cafe} alt="" style={{height:"251.7px", alignSelf: "flex-start"}}/>
+            <img src={cafe} alt="cafe"/>
           </Box>
           
           
