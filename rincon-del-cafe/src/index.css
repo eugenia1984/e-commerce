@@ -3,3 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.boton {
+  margin-top: 300px;
+}
+
+.Social {
+  background-color:bisque;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.tituloSocial{
+  margin-bottom: 15px;
+}
+.iconEnlace {
+  text-decoration: none;
+}
+
+.contenedor-partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 100px; */
+  justify-content: center;
+  background-image: url(./imagenes/fondo-partner.jpg);
+}
+
+.imagen-partner {
+  width: 150px;
+}
+
+.titulo-partner {
+  background-color: beige;
+  color: #ec072a
+}

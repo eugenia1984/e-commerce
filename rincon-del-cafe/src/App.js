@@ -5,6 +5,8 @@ import { Home } from "./pages/Home";
 import { Products } from "./pages/Products";
 import { ThemeProvider } from "@mui/material/styles";
 import { theme } from "./themeMaterial";
+import  SocialMedia  from "./components/SocialMedia";
+import Partner from "./components/Partner";
 
 function App() {
   
@@ -12,11 +14,12 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <Header />
+        <SocialMedia />
+        <Partner />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
         </Routes>
-        <Footer />
       </ThemeProvider>
     </>
   );
