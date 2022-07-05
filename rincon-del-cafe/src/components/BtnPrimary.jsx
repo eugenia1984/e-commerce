@@ -6,7 +6,7 @@ import React from "react";
 const BtnPrimary = (props) => {
 
   return (
-    <Button onClick={props.function} color="primary"  variant="contained">{props.name}</Button>
+    <Button onClick={props.function} color="primary" variant="contained">{props.name}</Button>
   )
 };
 
