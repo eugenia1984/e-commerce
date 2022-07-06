@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import React from "react";
 import { BtnPrimary } from "./BtnPrimary";
 import boxcafe from "../assets/images/boxcafe.jpg";
-import "./combo.css";
+import "./features.css";
 import { Container } from "@mui/system";
 
 const Combo = () => {
