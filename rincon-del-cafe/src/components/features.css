@@ -14,3 +14,10 @@ span{
 img{
     height: 251.7px
 }
+
+@media (max-width: 600px){
+    img{
+        width: 300px;
+        height: auto;
+    }
+}

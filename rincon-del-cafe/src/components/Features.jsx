@@ -17,9 +17,9 @@ function change(){
      
         <Box  
         paddingTop='50px'
-        display='flex' flexWrap='wrap' justifyContent='space-around' 
+        display='flex' flexWrap='wrap' justifyContent='center' 
         >
-          <Box sx={{height: "auto"}}
+          <Box sx={{height: "auto"}} margin="10px"
           >
             <h3><span className="h3-span">Cómo Se Hace </span>  Tu Café?</h3> <br />
             <p>
@@ -51,9 +51,9 @@ function change(){
               </span> 
             </p> <br />
             
-            <BtnPrimary name="Discover Our Producers" function={change}/>
+            <BtnPrimary name="Descubre nuestros productores" function={change}/>
           </Box>
-          <Box >
+          <Box margin="10px">
             <img src={cafe} alt="cafe"/>
           </Box>
           
