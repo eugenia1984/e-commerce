@@ -3,9 +3,14 @@
     padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around
+    justify-content: center
 }
-
+.contenedor-combo{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
 p {
     display: flex;
     align-items: center;
@@ -55,6 +60,8 @@ img{
         display: flex;
         flex-direction: column;
     }
-    
+    .parrafo{
+        display: none
+    }
     
 }
