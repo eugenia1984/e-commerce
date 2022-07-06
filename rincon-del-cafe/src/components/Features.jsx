@@ -1,16 +1,15 @@
-import { Box, Container, } from "@mui/system";
+import { Box, Container } from "@mui/system";
 import React from "react";
 import cafe from "../assets/images/cafe.jpg";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { BtnPrimary } from "./BtnPrimary";
-import { styled } from '@mui/system';
-import "./features.css"
-
+import { styled } from "@mui/system";
+import "./features.css";
 
 const Features = () => {
-function change(){
- window.open("https://camaraargentinacafe.com.ar/", "_blank")
-}
+  function change() {
+    window.open("https://camaraargentinacafe.com.ar/", "_blank");
+  }
 
   return (
     <>
