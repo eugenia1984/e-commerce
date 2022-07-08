@@ -37,10 +37,11 @@
 
 .imagen-partner {
   width: 150px;
+  margin-bottom: 20px;
 }
 
 .titulo-partner {
-  background-color: beige;
+  background-color: bisque;
   color: #ec072a;
   margin-bottom: 30px;
 }
