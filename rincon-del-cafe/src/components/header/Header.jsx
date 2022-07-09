@@ -6,7 +6,7 @@ import { Navbar } from "./Navbar";
 const Header = () => {
   return (
     <>
-      <AppBar
+      <AppBar position="static"
         color="primary"
         sx={{
           display: "flex",
@@ -15,7 +15,6 @@ const Header = () => {
           flexDirection: "row",
         }}
       >
-        <Logo />
         <Navbar />
       </AppBar>
     </>

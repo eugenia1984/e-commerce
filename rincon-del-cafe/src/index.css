@@ -45,3 +45,19 @@
   color: #ec072a;
   margin-bottom: 30px;
 }
+
+.banner {
+  padding: 300px;
+  background-image: url(./imagenes/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-logo {
+  width: 100px;
+}
+
+.imagenCard {
+  background-size: 100%;
+  padding: 300px;
+}
