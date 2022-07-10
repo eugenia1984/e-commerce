@@ -6,6 +6,10 @@ import Partner from "./components/Partner";
 import Cards from "./components/Cards"
 import { Banner } from "./components/Banner";
 import Products from "./components/Products";
+import Footer from "./components/Footer";
+// import CheckoutPage from "./components/checkoutPage";
+
+
 function App() {
   
   return (
@@ -16,6 +20,7 @@ function App() {
         <Products />
         <SocialMedia />
         <Partner />
+        <Footer />
       </ThemeProvider>
     </>
   );

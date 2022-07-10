@@ -11,6 +11,7 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddShoppingCartSharpIcon from '@mui/icons-material/AddShoppingCartSharp';
 import accounting from 'accounting';
+import { BtnPrimary } from './BtnPrimary';
 
 
 const ExpandMore = styled((props) => {
@@ -34,7 +35,7 @@ export default function Cards({producto : {id, nombre, precio, intencidad, image
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, marginTop: 10, minHeight:450}}>
       <CardHeader
         action={
           <Typography
@@ -62,9 +63,10 @@ export default function Cards({producto : {id, nombre, precio, intencidad, image
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to Cart">
-          <AddShoppingCartSharpIcon fontSize='large' />
+          <BtnPrimary name="Agregar al carrito"/>
+          {/* <AddShoppingCartSharpIcon fontSize='large' /> */}
         </IconButton>
-        {Array({intencidad})
+        {Array(intencidad)
           .fill()
           .map((_, i) =>(
             <p>&#11088;</p>
