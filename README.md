@@ -41,3 +41,7 @@ KANBAN, organizandonos en Trello, [acá pueden ver el tablero](https://trello.co
 - [Create React App](https://create-react-app.dev/)
 
 ---
+
+Seguime en: [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
+
+---
